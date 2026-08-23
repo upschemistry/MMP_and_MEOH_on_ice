@@ -1,0 +1,10 @@
+; Methanol (MEOH)
+; Explicit-atom methanol
+; sigma in nm; epsilon in kJ/mol
+
+[ atomtypes ]
+; name        mass       charge   ptype   sigma      epsilon
+MEOH_CM       12.01100    0.000    A       0.3500     0.276144
+MEOH_OM       15.99940    0.000    A       0.3120     0.711280
+MEOH_HC        1.00800    0.000    A       0.2500     0.125520
+MEOH_HO        1.00800    0.000    A       0.0000     0.000000

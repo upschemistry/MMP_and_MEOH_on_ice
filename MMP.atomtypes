@@ -1,0 +1,13 @@
+; Methyl phosphate anion (MMP)
+; CH3O-PO3H-, total molecular charge = -1
+; sigma in nm; epsilon in kJ/mol
+
+[ atomtypes ]
+; name       mass       charge   ptype   sigma      epsilon
+MMP_P       30.97376    0.000    A       0.3740     0.8368
+MMP_OE      15.99940    0.000    A       0.2900     0.58576
+MMP_OH      15.99940    0.000    A       0.3200     1.0460
+MMP_OP      15.99940    0.000    A       0.3150     0.8368
+MMP_CM      12.01100    0.000    A       0.3500     0.276144
+MMP_HC       1.00800    0.000    A       0.2500     0.125520
+MMP_HO       1.00800    0.000    A       0.0000     0.000000

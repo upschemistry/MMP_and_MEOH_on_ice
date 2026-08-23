@@ -1,0 +1,16 @@
+#include "amber_na.ff/forcefield.itp"
+#include "MEOH.atomtypes"
+#include "MMP.atomtypes"
+#include "MEOH.itp"
+#include "MMP.itp"
+#include "amber_na.ff/tip4pd.itp"
+#include "amber_na.ff/ions.itp"
+
+[ system ]
+Gromacs Runs On Most of All Computer Systems in water
+
+[ molecules ]
+MEOH                1
+MMP                 1
+NA                  1
+SOL              2880

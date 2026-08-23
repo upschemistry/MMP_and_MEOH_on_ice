@@ -1,0 +1,33 @@
+; Methanol: CH3OH
+; Explicit atoms; total charge = 0.000 e.
+
+[ moleculetype ]
+; name  nrexcl
+MEOH  3
+
+[ atoms ]
+; nr type       resnr resid atom cgnr charge     mass
+  1 MEOH_CM    1   MEOH CM   1     0.145   12.01100
+  2 MEOH_OM    1   MEOH OM   1    -0.683   15.99940
+  3 MEOH_HO    1   MEOH HO   1     0.418    1.00800
+  4 MEOH_HC    1   MEOH HM1  1     0.040    1.00800
+  5 MEOH_HC    1   MEOH HM2  1     0.040    1.00800
+  6 MEOH_HC    1   MEOH HM3  1     0.040    1.00800
+
+[ bonds ]
+; ai aj funct length(nm) force(kJ mol^-1 nm^-2)
+ 1  2  1   0.1430000    300000.0
+ 2  3  1   0.0970000    300000.0
+ 1  4  1   0.1090000    300000.0
+ 1  5  1   0.1090000    300000.0
+ 1  6  1   0.1090000    300000.0
+
+[ angles ]
+; ai aj ak funct angle(deg) force(kJ mol^-1 rad^-2)
+ 1  2  3  1   108.50000       500.0
+ 2  1  4  1   109.47122       500.0
+ 2  1  5  1   109.47122       500.0
+ 2  1  6  1   109.47122       500.0
+ 4  1  5  1   109.47122       500.0
+ 4  1  6  1   109.47122       500.0
+ 5  1  6  1   109.47122       500.0
